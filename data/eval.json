@@ -1,0 +1,10 @@
+{
+  "reports": 52,
+  "symptom_recall_%": 95.4,
+  "symptom_precision_%": 98.2,
+  "present_vs_absent_correct_%": 100.0,
+  "stool_count_exact_%": 98.1,
+  "bristol_type_exact_%": 98.1,
+  "hedged_items_flagged_for_review_%": 100.0,
+  "events_flagged_for_review": 9
+}

@@ -1,0 +1,216 @@
+{
+  "patients": [
+    {
+      "id": "P1",
+      "name": "Jordan Lee",
+      "diagnosis": "Ulcerative colitis flare",
+      "start_date": "2026-09-28",
+      "story": "responder: steady improvement through the taper"
+    },
+    {
+      "id": "P2",
+      "name": "Priya Shah",
+      "diagnosis": "Ulcerative colitis flare",
+      "start_date": "2026-09-28",
+      "story": "taper flare: improves, then worsens after the 25 -> 20 mg step"
+    },
+    {
+      "id": "P3",
+      "name": "Sam Rivera",
+      "diagnosis": "Ulcerative colitis flare",
+      "start_date": "2026-09-28",
+      "story": "vague reporter: hedges, misses check-ins, one contradiction"
+    }
+  ],
+  "doses": [
+    {
+      "patient_id": "P1",
+      "drug": "prednisone",
+      "dose_mg": 40,
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-04"
+    },
+    {
+      "patient_id": "P1",
+      "drug": "prednisone",
+      "dose_mg": 35,
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-11"
+    },
+    {
+      "patient_id": "P1",
+      "drug": "prednisone",
+      "dose_mg": 30,
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-18"
+    },
+    {
+      "patient_id": "P1",
+      "drug": "prednisone",
+      "dose_mg": 25,
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-25"
+    },
+    {
+      "patient_id": "P1",
+      "drug": "prednisone",
+      "dose_mg": 20,
+      "start_date": "2026-10-26",
+      "end_date": "2026-11-01"
+    },
+    {
+      "patient_id": "P1",
+      "drug": "prednisone",
+      "dose_mg": 15,
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-08"
+    },
+    {
+      "patient_id": "P1",
+      "drug": "prednisone",
+      "dose_mg": 10,
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-15"
+    },
+    {
+      "patient_id": "P1",
+      "drug": "prednisone",
+      "dose_mg": 5,
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-22"
+    },
+    {
+      "patient_id": "P1",
+      "drug": "folic acid",
+      "dose_mg": 1,
+      "start_date": "2026-09-28",
+      "end_date": "2026-11-22"
+    },
+    {
+      "patient_id": "P2",
+      "drug": "prednisone",
+      "dose_mg": 40,
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-04"
+    },
+    {
+      "patient_id": "P2",
+      "drug": "prednisone",
+      "dose_mg": 35,
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-11"
+    },
+    {
+      "patient_id": "P2",
+      "drug": "prednisone",
+      "dose_mg": 30,
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-18"
+    },
+    {
+      "patient_id": "P2",
+      "drug": "prednisone",
+      "dose_mg": 25,
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-25"
+    },
+    {
+      "patient_id": "P2",
+      "drug": "prednisone",
+      "dose_mg": 20,
+      "start_date": "2026-10-26",
+      "end_date": "2026-11-01"
+    },
+    {
+      "patient_id": "P2",
+      "drug": "prednisone",
+      "dose_mg": 15,
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-08"
+    },
+    {
+      "patient_id": "P2",
+      "drug": "prednisone",
+      "dose_mg": 10,
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-15"
+    },
+    {
+      "patient_id": "P2",
+      "drug": "prednisone",
+      "dose_mg": 5,
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-22"
+    },
+    {
+      "patient_id": "P2",
+      "drug": "folic acid",
+      "dose_mg": 1,
+      "start_date": "2026-09-28",
+      "end_date": "2026-11-22"
+    },
+    {
+      "patient_id": "P3",
+      "drug": "prednisone",
+      "dose_mg": 40,
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-04"
+    },
+    {
+      "patient_id": "P3",
+      "drug": "prednisone",
+      "dose_mg": 35,
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-11"
+    },
+    {
+      "patient_id": "P3",
+      "drug": "prednisone",
+      "dose_mg": 30,
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-18"
+    },
+    {
+      "patient_id": "P3",
+      "drug": "prednisone",
+      "dose_mg": 25,
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-25"
+    },
+    {
+      "patient_id": "P3",
+      "drug": "prednisone",
+      "dose_mg": 20,
+      "start_date": "2026-10-26",
+      "end_date": "2026-11-01"
+    },
+    {
+      "patient_id": "P3",
+      "drug": "prednisone",
+      "dose_mg": 15,
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-08"
+    },
+    {
+      "patient_id": "P3",
+      "drug": "prednisone",
+      "dose_mg": 10,
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-15"
+    },
+    {
+      "patient_id": "P3",
+      "drug": "prednisone",
+      "dose_mg": 5,
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-22"
+    },
+    {
+      "patient_id": "P3",
+      "drug": "folic acid",
+      "dose_mg": 1,
+      "start_date": "2026-09-28",
+      "end_date": "2026-11-22"
+    }
+  ]
+}
