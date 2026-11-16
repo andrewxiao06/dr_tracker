@@ -1,6 +1,3 @@
--- Dr.Tracker Track B schema: event-based, append-only.
--- Plain SQL that runs on SQLite today and ports to Postgres unchanged.
-
 CREATE TABLE patients (
     id          TEXT PRIMARY KEY,
     name        TEXT NOT NULL,          -- fictional
@@ -8,8 +5,7 @@ CREATE TABLE patients (
     start_date  TEXT NOT NULL           -- day 1 of the taper (ISO date)
 );
 
--- Entered by the clinic, NOT parsed from patient text: the dose schedule is
--- the source of truth for "what changed", so an LLM never touches it.
+-- entered by the clinic
 CREATE TABLE medication_doses (
     id          INTEGER PRIMARY KEY,
     patient_id  TEXT NOT NULL REFERENCES patients(id),
